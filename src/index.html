@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link href="css/style.css" rel="stylesheet">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>Welcome Quiz App</h1>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div id='test'>
+                        <p class="question"></p>        
+                        <ul class="answers">            
+                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
+                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                        </ul> 
+                        <p class="question"></p>        
+                        <ul class="answers">            
+                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
+                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                        </ul> 
+                        <p class="question"></p>        
+                        <ul class="answers">            
+                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
+                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                        </ul> 
+                        <p class="question"></p>        
+                        <ul class="answers">            
+                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
+                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                        </ul> 
+                        <p class="question"></p>        
+                        <ul class="answers">            
+                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
+                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                        </ul> 
+                    </div>
+                    <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+            <div class="col-lg-4">
+                <button type="button" class="btn btn-success" id='showMeTheAns' onclick="myFunction()">Show me the answers</button>
+                <div id="answers">
+                    <p id='plain'></p>        
+                </div>        
+
+            </div>
+            </div>
+
+        </div>
+
+       <script src='app.js'></script>
+    </body>
+</html>
