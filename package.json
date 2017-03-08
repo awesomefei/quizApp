@@ -1,0 +1,13 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run lite\" \"npm run tsc:w\" " 
+      },
+  "author": "",
+  "license": "ISC"
+}
