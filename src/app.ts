@@ -24,7 +24,7 @@ let quizArray= [
     answer:'North American beaver'},
     {point:5,
      title:' 2. What kind of animal is the largest living creature on Earth? ', 
-    choices:['Elephantwhale','whale','Dinosaur'],
+    choices:['Elephant','whale','Dinosaur'],
     answer:'whale'},
     {point:5, 
     title:'3. What is the noisiest city in the world?',
