@@ -15,44 +15,43 @@
                     <div id='test'>
                         <p class="question"></p>        
                         <ul class="answers">            
-                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
-                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
-                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                            <input type="radio" name="q1answer" value="North American beaver"><label id="q1a"> </label><br/>          
+                            <input type="radio" name="q1answer" value="b" ><label id="q1b"></label><br/>            
+                            <input type="radio" name="q1answer" value="c" ><label id="q1c"> </label><br/>            
                         </ul> 
                         <p class="question"></p>        
                         <ul class="answers">            
-                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
-                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
-                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                            <input type="radio"  name="q2answer" value="a" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  name="q2answer" value="whale" ><label id="q1b"> </label><br/>            
+                            <input type="radio"  name="q2answer"value="c" ><label id="q1c"> </label><br/>            
                         </ul> 
                         <p class="question"></p>        
                         <ul class="answers">            
-                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
-                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
-                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                            <input type="radio"  name="q3answer" value="a" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  name="q3answer" value="b" ><label id="q1b"> </label><br/>            
+                            <input type="radio"  name="q3answer" value="Hong Kong" ><label id="q1c"></label><br/>            
                         </ul> 
                         <p class="question"></p>        
                         <ul class="answers">            
-                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
-                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
-                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                            <input type="radio"  name="q4answer" value="a" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  name="q4answer" value="Liver" ><label id="q1b"></label><br/>            
+                            <input type="radio"  name="q4answer" value="c" ><label id="q1c"></label><br/>            
                         </ul> 
                         <p class="question"></p>        
                         <ul class="answers">            
-                            <input type="radio"  value="a" ><label id="q1a"> </label><br/>          
-                            <input type="radio"  value="b" ><label id="q1b"> &nbsp; Answer 2</label><br/>            
-                            <input type="radio"  value="c" ><label id="q1c"> &nbsp; Answer 3</label><br/>            
+                            <input type="radio"  name="q5answer" value="Mercury" ><label id="q1a"> </label><br/>          
+                            <input type="radio"  name="q5answer" value="b" ><label id="q1b"></label><br/>            
+                            <input type="radio"  name="q5answer" value="c" ><label id="q1c"></label><br/>            
                         </ul> 
                     </div>
-                    <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-            <div class="col-lg-4">
-                <button type="button" class="btn btn-success" id='showMeTheAns' onclick="myFunction()">Show me the answers</button>
-                <div id="answers">
-                    <p id='plain'></p>        
-                </div>        
-
-            </div>
+                    <button type="button" class="btn btn-primary" onclick="submitFunction()">Submit</button>
+                </div>
+                <div class="col-lg-4">
+                    <button type="button" class="btn btn-success" id='showMeTheAns' onclick="myFunction()">Show me the answers</button>
+                    <div id="answers">
+                        <p id='plain'></p>        
+                    </div>        
+                </div>
             </div>
 
         </div>
